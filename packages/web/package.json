@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@heroicons/react": "2.0.16",
+    "firebase-admin": "^10.0.2",
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0"
