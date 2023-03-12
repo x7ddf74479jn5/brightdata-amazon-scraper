@@ -38,7 +38,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
       search,
       start_eta,
       status: "pending",
-      updateAt: admin.firestore.Timestamp.now(),
+      updateAt: start_eta,
     });
 
     res.status(200).json({
