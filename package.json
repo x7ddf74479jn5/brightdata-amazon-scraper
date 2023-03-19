@@ -1,0 +1,13 @@
+{
+  "name": "brightdata-amazon-scraper",
+  "version": "1.0.0",
+  "description": "Scraping tool for Amazon",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm run '/^dev:.*/'",
+    "dev:web": "pnpm run dev --filter web",
+    "dev:api": "pnpm run serve --filter functions"
+  },
+  "author": "x7ddf74479jn5 <x7ddf74479jn5@gmail.com> (https://github.com/x7ddf74479jn5)",
+  "license": "MIT"
+}
