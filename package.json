@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "pnpm run '/^dev:.*/'",
-    "dev:web": "pnpm run dev --filter web",
-    "dev:api": "pnpm run serve --filter functions"
+    "dev:web": "pnpm --filter web dev",
+    "dev:api": "pnpm --filter functions serve"
   },
   "author": "x7ddf74479jn5 <x7ddf74479jn5@gmail.com> (https://github.com/x7ddf74479jn5)",
   "license": "MIT"
